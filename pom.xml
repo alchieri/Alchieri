@@ -31,6 +31,28 @@
 		<java.version>23</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>software.amazon.awscdk</groupId>
+			<artifactId>cognito</artifactId>
+			<version>1.204.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>secretsmanager</artifactId>
+			<version>2.29.5</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>core</artifactId>
+			<version>2.29.5</version>
+			<type>pom</type>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
